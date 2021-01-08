@@ -15,24 +15,24 @@
       //document.write("hello");
       var email = document.getElementById("email");
       var pass = document.getElementById("password");
-      const promise = auth.createUserWithEmailAndPassword(email.value ,pass.value);
-    promise.catch(e => alert(e.message));
-    window.alert("signed up");
-    window.location = "home.html";
-
+        const promise = auth.createUserWithEmailAndPassword(email.value ,pass.value);
+        promise.catch(e => alert(e.message));
+        window.alert("signed up");
+        // window.location = "home.html";
   }
   function signin()
   {
-    var email = document.getElementById("email");
-    var pass = document.getElementById("password");
+    var email = document.getElementById("emailsgn");
+    var pass = document.getElementById("passwordsgn");
     const promise = auth.signInWithEmailAndPassword(email.value ,pass.value);
-    promise.catch(e => alert(e.message));
-    window.alert("Signed In");
-    window.location = "home.html";
+      promise.catch(e => alert(e.message));
+      window.alert("Signed In");
+      // window.location = "home.html";
+    
   }
   function signout()
   {
       auth.signOut();
-      alert("signed out")
-      window.location = "index.html";
+      alert("signed out");
+      window.location="index.html";
   }

@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META Http-Equiv="Cache-Control" Content="no-cache" />
     <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
     <script src="javascript.js"></script>
     <title>Home</title>
+
     <style>
-        header
-        {
+        header {
             background-color: #24292e;
             width: 100%;
             height: 50px;
-            margin-top:0;
-            margin:0 0;
-            padding:0 0;
+            margin-top: 0;
+            margin: 0 0;
+            padding: 0 0;
         }
-        body
-        {
+
+        body {
             /* background-color: rgb(40, 44, 52); */
-            background-color: #24292e; 
+            background-color: #24292e;
         }
-        p{
+
+        p {
             color: white;
-            font-family:Arial;
+            font-family: Arial;
 
         }
-        .dv
-        {
+
+        .dv {
             width: 50%;
             height: 300px;
             background-color: whitesmoke;
@@ -36,20 +39,37 @@
         }
     </style>
 </head>
+
 <body>
+    <button onclick="signout()" id="signout"
+        style="width: 120px; height: 50px;color: white;background-color: chartreuse; border-radius: 20px;float: right;">Sign
+        Out</button>
     <header>
 
     </header>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus maiores, nemo dicta repellat asperiores alias minima hic adipisci molestias nisi neque dolorem excepturi non! Alias, repellendus. Iusto perferendis tempora nemo.
-    Deleniti numquam quod quidem laudantium molestias nostrum qui, fuga eum sint voluptas exercitationem ad ducimus, error debitis odit repellendus dolore, eos ea quam! Est, expedita blanditiis! Aperiam vitae maiores sequi?
-    Inventore temporibus, quasi fugit molestiae quia vel voluptate! Dolorem nesciunt nobis deserunt magnam debitis rerum ut maxime odio, soluta vero temporibus dolorum doloremque quos odit nam eligendi? Quia, a quasi.
-    Unde non perferendis molestias laboriosam quae quasi molestiae, perspiciatis, tenetur placeat illum reprehenderit, sequi vitae nihil ducimus sunt pariatur soluta nulla! Nisi rem esse laudantium facilis at earum, voluptatem autem.
-    Nihil consequatur corporis aspernatur consequuntur, voluptatibus itaque qui veniam accusantium! Optio reprehenderit consequuntur nobis earum rem repellendus deserunt, eum est eos harum unde delectus adipisci voluptatum, sed dolore ut alias?
-    Laudantium est voluptatibus blanditiis impedit, saepe unde aspernatur excepturi magnam placeat doloribus illum labore rerum! Exercitationem qui officia itaque magni quae repellat esse? Ex animi nemo rem minus earum deserunt.
-    Quo alias corporis consequatur quidem itaque id repellat. Minima optio exercitationem neque quo reiciendis!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus maiores, nemo dicta repellat asperiores
+        alias minima hic adipisci molestias nisi neque dolorem excepturi non! Alias, repellendus. Iusto perferendis
+        tempora nemo.
+        Deleniti numquam quod quidem laudantium molestias nostrum qui, fuga eum sint voluptas exercitationem ad ducimus,
+        error debitis odit repellendus dolore, eos ea quam! Est, expedita blanditiis! Aperiam vitae maiores sequi?
+        Inventore temporibus, quasi fugit molestiae quia vel voluptate! Dolorem nesciunt nobis deserunt magnam debitis
+        rerum ut maxime odio, soluta vero temporibus dolorum doloremque quos odit nam eligendi? Quia, a quasi.
+        Unde non perferendis molestias laboriosam quae quasi molestiae, perspiciatis, tenetur placeat illum
+        reprehenderit, sequi vitae nihil ducimus sunt pariatur soluta nulla! Nisi rem esse laudantium facilis at earum,
+        voluptatem autem.
+        Nihil consequatur corporis aspernatur consequuntur, voluptatibus itaque qui veniam accusantium! Optio
+        reprehenderit consequuntur nobis earum rem repellendus deserunt, eum est eos harum unde delectus adipisci
+        voluptatum, sed dolore ut alias?
+        Laudantium est voluptatibus blanditiis impedit, saepe unde aspernatur excepturi magnam placeat doloribus illum
+        labore rerum! Exercitationem qui officia itaque magni quae repellat esse? Ex animi nemo rem minus earum
+        deserunt.
+        Quo alias corporis consequatur quidem itaque id repellat. Minima optio exercitationem neque quo reiciendis!</p>
     <div class="dv">
-        <p style="color: black;text-align: center;font-size: 25px;font-family:Arial, Helvetica, sans-serif;font-weight:bold">Welcome to my Editor</p>
+        <p
+            style="color: black;text-align: center;font-size: 25px;font-family:Arial, Helvetica, sans-serif;font-weight:bold">
+            Welcome to my Editor</p>
     </div>
-    <button onclick="signout()" id="signout">Sign Out</button>
+    
 </body>
+
 </html>

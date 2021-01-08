@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META Http-Equiv="Cache-Control" Content="no-cache"/>
     <title>Login Page</title>
     <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
@@ -16,13 +17,17 @@
         <div class="first">
         <h1>Welcome Back!</h1>
         <p class="lg">To keep connected with us please <br>login with your personal info </p>
+        <input class="pdl" type="email" placeholder="email" name="" id="emailsgn"><br>
+        <input  class="pdl" type="password" placeholder="password" name="" id="passwordsgn"><br>
         <button class="sgn" onclick="signin()" id="signin">Sign In</button>
         </div>
         <div class="second">
+            <p class="lg1">If you don't have account please! create account</p>
              <h1 class="create">Create Account</h1>
             <div class="container">
-                <input class="pd" type="email" placeholder="email" name="" id="email"><br>
-                <input  class="pd" type="password" placeholder="password" name="" id="password"><br>
+                <input type="text" placeholder="Name" class="pd">
+                <input class="pd" type="email" placeholder="Email" name="" id="email"><br>
+                <input  class="pd" type="password" placeholder="Password" name="" id="password"><br>
                 <button class="pds" onclick="signup()" id="signup">Sign up</button>
                 
             </div>

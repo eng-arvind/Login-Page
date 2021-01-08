@@ -5,7 +5,7 @@ body{
     margin-right: 0px;
     padding: 0;
     color: black; 
-    background-color: whitesmoke;
+    background-color: rgb(206, 199, 199);
 }
 .main
 {
@@ -35,8 +35,9 @@ h1
 {
     color: white;
     font-size: 45px;
-    margin-top: 220px;
-    margin-left:25%;
+    margin-bottom: 15px;
+    margin-top: 150px;
+    margin-left:23%;
 }
 .lg
 {
@@ -44,9 +45,16 @@ h1
     font-family: serif;
     margin-left:32%;
 }
+.lg1
+{
+    color: navy;
+    text-align: center;
+    margin-top: 50px;
+    font-family: cursive;
+    font-size: 20px;
+}
 .sgn
 {
-    margin-left:33%;
     margin-top: 40px;
     color: white;
     background-color: chartreuse;
@@ -54,40 +62,59 @@ h1
     font-family: cursive;
     font-size:20px;
     width: 180px;
+    margin-left: 33.5%;
     height: 50px;
     border-radius: 20px;
 }
 .create
 {
     color: chartreuse;
-    margin-left:33%;
-    margin-top: 70px;
+    /* margin-left:32.5%; */
+    margin-top: 60px;
+    margin-left:30.5%;
+    margin-bottom: 30px;
     font-family: "Trebuchet MS", sans-serif;
 }
 .container
 {
     width: 50%;
     position:relative;
-    float:left;
-    margin-left: 28%;
-    margin-top: 50px;
+    overflow: auto;
+    margin-left: 25%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
 }
 .pd
 {
-
-    margin:10px 5px;
-    padding: 10px;
-    width: 80%;
+    margin:10px 10px;
+    margin-top: 10px;
+    padding:10px;
+    width: 75%;
     background-color: whitesmoke;
     border:1px solid black;
     border-radius: 5px;
 }
 .pds
 {
-    margin-left: 29%;
-    padding: 10px;
-    border-radius: 10px;
-    width: 140px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-family: cursive;
+    font-size:20px;
     margin-top: 30px;
+    border:1px solid white;
+    background-color:chartreuse;
+}
+.pdl
+{
+    margin:10px 23.1%;
+    padding: 10px;
+    width: 50%;
+    background-color: whitesmoke;
     border:1px solid black;
+    border-radius: 5px;
+
 }
